@@ -28,7 +28,7 @@ body {
         	<ul>
             	<li><a href="index.html" class="active"> Home </a></li>
            		<li><a href="Cadastro.html"> Cadastro </a></li>
-                <li><a href="Login.html"> Login </a></li>
+                <li><a href="Login.php"> Login </a></li>
                 <li><a href="Estabelecimentos.html"> Estabelecimentos </a></li>
                 <li><a href="Contato.html"> Contato </a></li>
                 
@@ -60,21 +60,15 @@ body {
   
   <div class="grupo_fotos">
   </div> <!-- fim grupo fotos-->
-  
-  <div id="entrar">
-  
-  	<form id"form1" name="form1" method"POST" action="Login.html"><br />
-    <span>Login:</span>
-    <input name="Usuário" type id="Usuário" />
-    <span>Senha:</span>
-    <input name="Senha" type="password" id="Senha" />
-    
-    <input type="submit" name="Entrar" id="Entrar" value="Entrar" class="btn" />
-    
-    </form>
-  
- 
 
+  <form 	method="POST" action="validaLogin.php">
+    <label> Email </label>
+      <input type="text" name="email" placeholder="Digite seu Email"> 
+      
+      <label> Senha </label>
+      <input type="password" name="senha" placeholder="Digite sua Senha">        
+      <input type="submit" name="btnLogin" value="Acessar">
+   </form>
 
 </div> <!--fim fundo inicial--> 
 

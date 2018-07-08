@@ -35,6 +35,7 @@ CREATE TABLE IF NOT EXISTS `cadastro_dados` (
   `cpf` varchar(11) COLLATE utf32_unicode_ci NOT NULL,
   `email` varchar(40) COLLATE utf32_unicode_ci NOT NULL,
   `datanascimento` varchar(20) COLLATE utf32_unicode_ci NOT NULL
+  `senha` varchar(255) COLLATE utf32_unicode_ci NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf32 COLLATE=utf32_unicode_ci;
 
 --

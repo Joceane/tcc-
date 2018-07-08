@@ -27,7 +27,7 @@
             	<td> Sexo:</td>
                 <td>
                 Masculino <input type="radio" value="Masc" name="sexoPessoa" required />
-                Feminino <input type="radio" value="Masc" name="sexoPessoa" required />
+                Feminino <input type="radio" value="Fem" name="sexoPessoa" required />
                 </td> 
             </tr>
             
@@ -52,6 +52,12 @@
             <tr>
             	<td> Email</td>
                 <td><input type="text" name="emailPessoa" required />
+                </td>
+             </tr>
+
+             <tr>
+            	<td> Senha</td>
+                <td><input type="password" name="senha" required />
                 </td>
              </tr>
              
