@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+	font-family:"monospace";
+	line-height:20px;
+	font-size:18px;
+	color:#F33
+}
+
+.topo {
+	background:url(../image/estrada-do-asfalto-com-textura-das-marca%C3%A7%C3%B5es-de-estrada-25199138.jpg);
+	width:800px;
+	height:200px; 
+	margin:auto;
+}
+
+.logo {
+	float:left;
+	background:url(../image/logo%20certa.png);
+	width:200px;
+	height:200px;
+	position:relative;
+	margin:1px 0 0 1px;
+}
+
+.topo .menu ul {
+	position:relative;
+	float:right;
+	margin:-40px 25px 0 100px;
+}
+
+.topo .menu ul li{
+	display:inline;
+	padding:10px 0 0 60px;
+	float:none;
+}
+
+.topo .menu ul li a {
+	color:#FFF;
+	text-decoration:none;
+}
+
+.topo .menu ul li a:hover {
+	text-decoration:underline;
+	color:#CCC;
+}
+
+.topo .menu ul li .active {
+	color:#FF0;
+	font-weight:bold;
+}
+
+/* Inicio pagina inicial */
+
+#fundo_inicial {
+	width:800px;
+	height:500px;
+	margin:5px auto 20px auto;
+	background-color:#666;
+}
+
+.box_img1 {
+	background:url(../image/fundo%20home.jpg);
+	width:300px;
+	height:210px;
+	float:left;
+	position:relative;
+	margin:5px;
+}
+
+.box_txt1 {
+	width:420px;
+	height:400px;
+	float:left;
+	position:relative;
+	margin:5px;
+}
+
+.box_txt1 h1 {
+	font-size:26px;
+	color:#333;
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.box_txt1 p {
+	text-align:justify;
+	color:#CCC;
+}
+
+.box_txt1 a {
+	text-decoration:none;
+	color:#003;
+}
+
+.box_txt1 a:hover {
+	text-decoration:underline;
+	color:#FFF;
+}
+
+.regua {
+	width:700px;
+	margin:auto;
+	border:1px solid #999;
+	clear:both;
+}
+
+.grupo_fotos {
+	background:url(../image/fotoss.jpg);
+	width:799px;
+	height:75px;
+	margin:auto;
+}
+
+#box {
+	width:200px;
+	height:100px;
+	margin:150px auto;
+	background:#009;
+}
+
+#box span {
+	font:Tahoma, Geneva, sans-serif 17px;
+	color:#003;
+	display:block;
+	margin:4px 11px 4px;
+}
+
+#box input {
+	padding:5px;
+	border:1px solid #CCC;
+	margin:0 10px;
+	width:260px;
+}
+
+#box .btn {
+	border:1px solid #CCC;
+	background:#FFF;
+	color:#333;
+	padding:10px;
+	font-size:16px;
+	margin:6px 10px 0;
+	width:auto;
+	cursor:pointer;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #000000;
+    color: #ffffff;
+}
+td {
+    border: 1px solid #999;
+    padding: 10px;
+    cursor: pointer;
+}
+.clicked {
+    display: none;
+    background: #ffffff;
+    color: #000000;
+}
+
+
+
+
